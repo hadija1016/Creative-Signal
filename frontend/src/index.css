@@ -2,7 +2,7 @@
 
 /* ─── Design Tokens ─────────────────────────────────────── */
 :root {
-  --color-bg:           #ffffff;
+  --color-bg:           #fbebfd;
   --color-surface:      #F0F4FF;
   --color-border:       #E0E0E0;
 
@@ -63,4 +63,30 @@ body {
 ::selection {
   background: var(--color-yellow);
   color: var(--color-text-primary);
+}
+@keyframes blobFloat {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(20px, -20px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: -100px;
+  right: -100px;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background: rgba(0, 87, 255, 0.08);
+  filter: blur(80px);
+  animation: blobFloat 8s ease-in-out infinite;
+  pointer-events: none;
+  z-index: -1;
 }
