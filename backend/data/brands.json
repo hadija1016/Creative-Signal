@@ -1,0 +1,44 @@
+{
+  "brands": [
+    {
+      "brand_name": "Coca-Cola",
+      "emotional_identity": "Nostalgic warmth, universal belonging, joyful simplicity",
+      "pacing_style": "Slow and emotional, lingering on human moments",
+      "audience_energy": "Family-oriented, inclusive, cross-generational",
+      "storytelling_type": "Emotional narrative, slice-of-life, celebration of everyday moments",
+      "visual_language": "Warm reds, classic typography, real human faces, natural lighting"
+    },
+    {
+      "brand_name": "Red Bull",
+      "emotional_identity": "Adrenaline, rebellion, peak human performance",
+      "pacing_style": "Fast, relentless, high-cut editing with no breathing room",
+      "audience_energy": "Young, risk-taking, physically driven, extreme sports culture",
+      "storytelling_type": "Hero's journey at maximum velocity, spectacle over narrative",
+      "visual_language": "High contrast, action freeze frames, aerial shots, electric blues and silvers"
+    },
+    {
+      "brand_name": "Spotify",
+      "emotional_identity": "Personal discovery, emotional resonance, cultural fluency",
+      "pacing_style": "Rhythmic and mood-driven, follows the music's emotional arc",
+      "audience_energy": "Culturally curious, emotionally expressive, individualistic",
+      "storytelling_type": "Identity-driven micro-narratives, data meets human emotion",
+      "visual_language": "Bold typography, duotone color washes, abstract gradients, playful layouts"
+    },
+    {
+      "brand_name": "Riot Games",
+      "emotional_identity": "Epic fantasy, competitive glory, world-building immersion",
+      "pacing_style": "Cinematic and theatrical, builds tension before explosive release",
+      "audience_energy": "Hardcore gamers, lore-obsessed, competitive and community-driven",
+      "storytelling_type": "Mythological world-building, champion narratives, cinematic universe expansion",
+      "visual_language": "Dark dramatic lighting, particle effects, hyper-detailed character art, deep color saturation"
+    },
+    {
+      "brand_name": "Nike",
+      "emotional_identity": "Inner fire, relentless self-belief, athletic transcendence",
+      "pacing_style": "Punchy and declarative, alternates between slow burn and explosive moments",
+      "audience_energy": "Aspirational athletes, culturally aware, driven by personal excellence",
+      "storytelling_type": "Motivational monologue, underdog triumph, raw human determination",
+      "visual_language": "High contrast black and white, dramatic shadows, minimal text, powerful body language"
+    }
+  ]
+}
